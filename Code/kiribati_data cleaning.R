@@ -2,8 +2,6 @@
 # library(usethis)
 # use_github()
 
-## This is a test for the alpha branch!!!
-
 
 #### DATA CLEANING FOR KIRIBATI TB NOTIFICATION DATA 
 
@@ -24,13 +22,12 @@ library(purrr)
 #### CLEAN DATA SO WE CAN DO ANALYSES
 
 #### Load long and wide spreadsheet of all cases 
-kiribati <- read.csv("20231218_kiribati TB cases_EM.csv")
+kiribati <- read.csv("C:/Users/emac7945/OneDrive - The University of Sydney (Staff)/USyd_Projects/Analysis_Kiribati/KI-TB-epirev/Data to use/20231218_kiribati TB cases_EM_no names.csv")
 
 kir <- kiribati
 
 skim(kir)
 str(kir)
-
 
 
 ##
@@ -827,6 +824,15 @@ unique(kir$sex)
 unique(kir$treatment_unit)
 
 dict <- list()
+
+
+
+
+
+
+
+
+
 
 
 
